@@ -1,0 +1,5 @@
+nota1=float(input('Digite sua nota do primeiro semestre: '))
+nota2=float(input('Digite sua nota do segundo semetre: '))
+nota3=float(input('Digite sua nota do terceiro semestre: '))
+nota4=float(input('Digite sua nota do quarto semestre: '))
+print(f'Média da notas dos semetres é: {(nota1+nota2+nota3+nota4)/4}')

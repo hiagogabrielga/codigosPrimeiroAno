@@ -1,0 +1,5 @@
+nome=input('Digite nome do aluno um: ')
+idade=float(input('Digite a idade do aluno um: '))
+nome2=input('Digte nome do aluno dois: ')
+idade2=float(input('Digite a idade do aluno dois: '))
+print(f'Nome do aluno um: {nome} \nNome do aluno dois:{nome2} \nMédia da idade: {(idade+idade2)/2}')

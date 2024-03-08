@@ -1,0 +1,10 @@
+num1=int(input('Digite um número para soma: '))
+num2=int(input('Digite outro número para soma: '))
+print(f'A soma de {num1} + {num2} é {num1+num2}')
+per=input('Gostária de continuar o programa?(S/N)')
+while per == 's' or per == 'S':
+    num1=int(input('Digite um número para soma: '))
+    num2=int(input('Digite outro número para soma: '))
+    print(f'A soma de {num1} + {num2} é {num1+num2}')
+    per=input('Gostária de continuar o programa? (S/N): ')
+print('A soma acaba aqui.')
